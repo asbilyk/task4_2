@@ -1,6 +1,6 @@
 #!/bin/bash
-if [ -n `pgrep ntp`]
+if [-n `pgrep ntp`]
 then
-`/etc/init.d/ntp start`
+`service ntp start`
 fi 
 
